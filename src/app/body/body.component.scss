@@ -1,0 +1,46 @@
+.row{
+    margin: 1%;
+}
+
+img{
+    width: 250px;
+    height: 375px;
+}
+
+img{
+    animation: imgFilm  2s ease-in forwards;
+}
+
+
+.card {
+    animation: cardFilm 1.5s ease-in-out forwards;
+}
+
+
+
+
+/* Animations*/
+
+@keyframes imgFilm {
+    0% {
+        transform: rotateX(-4rem);
+        opacity: 0;
+    }     
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes cardFilm {
+    0% {
+        transform: rotateY(-4em);
+        opacity: 0;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
